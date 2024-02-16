@@ -10,4 +10,6 @@
     <string name="link_author2">http://www.coolapk.com/u/24268987</string>
     <string name="link_lanz">https://www.lanzv.com/b03xbnvah</string>
     <string name="lanz">蓝奏云 密码:0519</string>
+    <string name="back"> <![CDATA[<--]]> </string>
+    <string name="setting_title">设置</string>
 </resources>
