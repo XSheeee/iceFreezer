@@ -1,5 +1,5 @@
 git add .
-git commit -m "åˆ¶ä½œä¸€é”®æäº¤å·¥å…·"
+git commit -m "ÖÆ×÷Ò»¼üÌá½»¹¤¾ß"
 git push origin main
-echo è¯·è§‚å¯Ÿä¸Šè¿°å‘½ä»¤æœ‰æ— æŠ¥é”™
+echo Çë¹Û²ìÉÏÊöÃüÁîÓĞÎŞ±¨´í
 pause
