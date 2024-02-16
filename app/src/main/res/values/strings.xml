@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">IceFreezer</string>
+    <string name="hello">Hello!</string>
+    <string name="next">下一步</string>
+    <string name="second">本模块由XShe/MoWei制作，是一个Android墓碑Xposed模块，请在lsp管理器中勾选本模块，然后点击下一步</string>
+    <string name="third">恭喜你已经完成初始设置，开始使用吧!</string>
+    <string name="author1">XShe/</string>
+    <string name="author2">MoWei</string>
+    <string name="link_author1">http://www.coolapk.com/u/20552855</string>
+    <string name="link_author2">http://www.coolapk.com/u/24268987</string>
+    <string name="link_lanz">https://www.lanzv.com/b03xbnvah</string>
+    <string name="lanz">蓝奏云 密码:0519</string>
 </resources>

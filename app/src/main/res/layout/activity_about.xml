@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="107dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/XShe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author1"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/MoWei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author2"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|top"
+        android:layout_marginTop="13sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="57sp"
+            android:orientation="horizontal"
+            android:layout_gravity="center|left"
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:layout_marginLeft="90sp"
+                android:layout_width="53dp"
+                android:layout_height="47dp"
+                android:background="@drawable/lanz" />
+            <TextView
+                android:id="@+id/lanz"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/lanz"
+                android:gravity="left|center"
+                android:textStyle="italic"
+                android:textSize="20sp"
+                android:textColor="@color/purple_200"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

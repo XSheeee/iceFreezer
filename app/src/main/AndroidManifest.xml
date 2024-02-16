@@ -11,6 +11,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.IceFreezer"
-        tools:targetApi="31" />
+        tools:targetApi="31">
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuideActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" /> <!-- 模块的简介（在框架中显示） -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="一个Android墓碑模块" /> <!-- 模块最低支持的Api版本 一般填54即可 -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54" /> <!-- 模块作用域 -->
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposedscope" />
+    </application>
 
 </manifest>
